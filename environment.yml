@@ -1,0 +1,16 @@
+channels:
+  - pytorch
+  - omnia
+  - conda-forge
+  - defaults
+dependencies:
+  - rdkit
+  - pytorch==1.12.0
+  - pip
+  - pip:
+    - wandb
+    - jupyter
+    - tqdm
+    - gpytorch
+    - networkx
+    - contextily
