@@ -33,8 +33,3 @@ python -m scripts.train.run_molecule_gp --kernel $KERNEL --kernel_mode $MODE --l
     --kappa 1.0 --sigma2 1.0 --nu 2.5
 ```
 where `KERNEL` is one of `{graph, projected}` and `MODE` is one of `{heat, matern}`
-
-
-## Illustrations
-Code used for generating illustrations can be found in `illustrations/`. 
-Some additional packages might be necessary to download for these.
