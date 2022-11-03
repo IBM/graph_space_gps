@@ -32,7 +32,7 @@ python -m scripts.train.run_molecule_gp --kernel $KERNEL --kernel_mode $MODE --l
     --print_every 100 --eval_every 100 --train_iter 10000 \
     --kappa 1.0 --sigma2 1.0 --nu 2.5
 ```
-where `KERNEL` is one of `{graph, projected (projected in the paper)}` and `MODE` is one of `{heat, matern}`
+where `KERNEL` is one of `{graph, projected}` and `MODE` is one of `{heat, matern}`
 
 
 ## Illustrations
