@@ -2,6 +2,10 @@
 
 (Preliminary version)
 
+## Updates:
+
+[01.03.2023]: As a small correction, the column RMSE in the paper should be replaced with L2-Error. The qualitative results remain unchanged though. 
+
 ## Setup
 
 This assumes conda is installed on your system \
@@ -23,6 +27,7 @@ python -m data_prep.splits --dataset freesolv --allowed_atoms C N O Cl --filenam
 ```
 where `FILENAME` is the corresponding file in `examples/data/freesolv` and `SPLIT` is one of `{random, scaffold}`.
 Note that in the experiments for the submission, we use the `random` split.
+
 
 ## Training
 
