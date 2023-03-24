@@ -1,6 +1,8 @@
-# Gaussian Processes on Finite Spaces of Graphs
+# Isotropic Gaussian Processes on Finite Spaces of Graphs
 
-(Preliminary version)
+(Under construction and subject to change)
+
+This is the official [PyTorch](https://pytorch.org/) implementation for our AISTATS 2023 paper, Isotropic Gaussian Processes on Finite Spaces of Graphs. 
 
 ## Updates:
 
